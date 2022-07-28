@@ -1,0 +1,41 @@
+{
+  "criminals":[
+      {"id":0, "name":"Han Solo", "alias":"Solo", "bounty":150, "yearsOnTheList": 10, "spaceship": 0, "img":"../../../assets/img/characters/0.jpg", "description":{
+        "esp":"Contrabandista humano muy escurridizo, actualmente asociado con el contrabandista Wookie: Chewbacca.",
+        "eng":"Human smuggler, really slipery, actually associated with the wookie smuggler: Chewbacca."
+      }},
+      {"id":1, "name":"Lando Calrissan", "alias":"Lando", "bounty":150, "yearsOnTheList": 12, "spaceship": 1, "img":"../../../assets/img/characters/1.jpg", "description":{
+        "esp":"Contrabandista humano con contactos en todos lados.",
+        "eng":"Human smuggler with plenty of contacts around the galaxy."
+      }},
+      {"id":2, "name":"Chewbacca", "alias":"Chewe", "bounty":150, "yearsOnTheList": 15, "spaceship": 0, "img":"../../../assets/img/characters/2.jpg", "description":{
+        "esp":"Contrabandista wookie, actualmente asociado con el contrabandista humano: Han Solo.",
+        "eng":"A wookie smuggler, currently working with the human: Han Solo."
+      }}
+  ],
+  "spaceships":[
+      {"id":0, "name":"MF", "maxSpeed": 1500, "model":1, "owner": 0, "planet": 0, "img":"../../../assets/img/spaceships/0.jpg", "description":{
+        "esp":"Una de las naves más rapidas de la galaxia, pilotada por Han Solo.",
+        "eng":"A really fast spaceship, owned by Han Solo."
+      }},
+      {"id":1, "name":"LL", "maxSpeed": 950, "model":3, "owner": 1, "planet": 1, "img":"../../../assets/img/spaceships/1.jpg", "description":{
+        "esp":"Una nave muy grande para ser una nave de contrabando.",
+        "eng":"A really huge spaceship, specially for a smugglers spaceship."
+      }}
+  ],
+  "planets":[
+      {"id":0, "name":"Corellia", "population": 3000 , "distance":51, "criminals": [0, 2], "img":"../../../assets/img/planets/0.jpg", "description":{
+        "esp":"Planeta mayormente humano, alta densidad de población, parece ser un planeta tranquilo, pero de allí vienen diversos individuos afines a la alianza rebelde, mejor mantenerlo vigilado.",
+        "eng":"Most of it's population is compound of humans, high population density, it's a quiet planet, but several rebels come from this planet, better to keep them in check."
+      }},
+      {"id":1, "name":"Socorro", "population": 300, "distance":87, "criminals": [1], "img":"../../../assets/img/planets/1.jpg", "description":{
+        "esp":"Planeta habitado principalmente por humanos, antes había una escuela de la orden Jedi donde entrenaban aprendices. A día de hoy es principalmente un refugio para contrabandistas, un planeta fuera de la ley.",
+        "eng":"Most of it's population is compound of humans, there used to be a Jedi Temple to train future Jedi Knights. Nowadays it's considered mostly a smuggler refuge, and an outlaw planet."
+      }},
+      {"id":2, "name":"Kashyyyk", "population": 56, "distance":32, "criminals": [2], "img":"../../../assets/img/planets/2.jpg", "description":{
+        "esp":"Planeta natal de los wookies, este planeta se encuentra bajo el control del imperio actualmente, no hay peligro.",
+        "eng":"Wookie's natal planet, they empire has total control over this planet at the moment, there is no imminent danger."
+      }}
+  ]
+
+}
